@@ -1,0 +1,9 @@
+To enable sar (Collect, report or save system activity information) 
+:~$ sudo apt-get install sysstat
+nano /etc/default/sysstat (press enter)
+In the line enable type ENABLED="true"
+To view cronjob for sysstat
+:~$ nano /etc/cron.d/sysstat 
+:~$ sar (press enter)
+:~$ sar -b
+:~$ sar -r
